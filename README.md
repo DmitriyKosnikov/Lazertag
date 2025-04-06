@@ -25,7 +25,6 @@ bin/rails db:migrate
 ## User (Пользователь)
 * first_name
 * last_name
-* nickname
 * wins_count (default: 0)
 * games_count (default: 0)
 * winrate (можно вычислять на лету)
@@ -33,7 +32,6 @@ bin/rails db:migrate
 ## Game (Игра)
 * date
 * title
-* winning_team_id (ссылка на команду-победителя)
 
 ## Team (Команда)
 * name
